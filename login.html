@@ -50,10 +50,21 @@
                 document.getElementById('name').innerHTML="**please enter valid username**";
                 return false;
             }
+            if((user.length<=2))
+            {
+                document.getElementById('name').innerHTML="**Username must enter 2 or above characters**";
+                return false;
+            }
             if(passw==""){
                 document.getElementById('passw').innerHTML="**Please enter password**";
                 return false;
             }
+            if(passw.length<=5)
+            {
+                document.getElementById('passw').innerHTML="**Enter at least 6 characters**";
+                return false;
+            }
+            
         }
     </script>
 </body>
