@@ -1,2 +1,2 @@
-# eduction
+# Javascript
 This is free eduction 
